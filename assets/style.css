@@ -22,7 +22,7 @@ h1, h2 {
 #logo {
 
     float: left;
-    color: red;
+    color: black;
     font-size: 250%;
     font-weight: bold;
 }
@@ -37,7 +37,7 @@ h1, h2 {
 #menu a {
 
     text-decoration: none;
-    color: red;
+    color: black;
     font-weight: bold;
 }
 #menu, #logo {
@@ -49,3 +49,36 @@ h1, h2 {
 .active {
     border-bottom: 1px solid rgb(8, 8, 8);
 }
+/* image */
+
+#gym-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/gym-image.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* animation for zoom image */ 
+    animation-name: gym-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+
+}
+#gym-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden
+}
+/* create a zoom out for gym image */
+@keyframes gym-zoom {
+
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1,1);
+    }
+}
+
