@@ -10,5 +10,42 @@ body {
 
     font-family: Lato, Arial, sans-serif;
     font-weight: 300;
-    
+    color: black  
+}
+/* heading */
+h1, h2 {
+    font-family: PT+serif, Arial;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: black;
+}
+#logo {
+
+    float: left;
+    color: red;
+    font-size: 250%;
+    font-weight: bold;
+}
+/* navigation links setup */
+#menu li {
+    font-size: 100%;
+    letter-spacing: 3px;
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+}
+#menu a {
+
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+#menu, #logo {
+    line-height: 80px;
+}
+#menu a:hover {
+    border-bottom: 1px solid rgb(8, 8, 8);
+}
+.active {
+    border-bottom: 1px solid rgb(8, 8, 8);
 }
