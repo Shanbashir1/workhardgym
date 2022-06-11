@@ -63,13 +63,14 @@ h1, h2 {
     animation-name: gym-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    animation-direction: normal;
+    
 
 }
 #gym-outer {
     height: 500px;
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
+    position: relative;
 }
 /* create a zoom out for gym image */
 @keyframes gym-zoom {
@@ -78,7 +79,26 @@ h1, h2 {
         transform: scale(1);
     }
     to{
-        transform: scale(1,1);
+        transform: scale(1.2);
     }
 }
+#cover-text, #cover-text h2{
 
+    color: #fff;
+}
+#cover-text {
+    font-size: 130%;
+    font-family: Lato, Arial, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    width: 300px;
+    height: 250px;
+    padding-top: 35px;
+    padding-left: 10px;
+    background-color: grey;
+
+    bottom: 30px;
+    right: 150px;
+    position:absolute;
+
+}
