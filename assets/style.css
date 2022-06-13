@@ -25,6 +25,7 @@ h1, h2 {
     color: black;
     font-size: 250%;
     font-weight: bold;
+    margin-left: 30px;
 }
 /* navigation links setup */
 #menu li {
@@ -87,18 +88,73 @@ h1, h2 {
     color: #fff;
 }
 #cover-text {
-    font-size: 130%;
+    font-size: 85%;
     font-family: Lato, Arial, sans-serif;
     text-transform: capitalize;
-    letter-spacing: 2px;
-    width: 300px;
-    height: 250px;
-    padding-top: 35px;
-    padding-left: 10px;
-    background-color: grey;
+    width: 200px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 40px;
+    background-color: rgb(139, 78, 78);
+    border-width: 1px;
+    border-radius: 50%;
+    text-align: left;
 
-    bottom: 30px;
+    bottom: 40px;
     right: 150px;
     position:absolute;
 
 }
+/* membership package */
+#membership {
+    height: 600px;
+    display: flex;
+    margin-left: 50px;
+}
+h2 {
+    color: #fff;
+}
+#membership-text {
+    font-size: 115%;
+    font-family: Lato, Arial, sans-serif;
+    color:#fff;
+    text-transform: capitalize;
+    width: 310px;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 45px;
+    background-color: red;
+    border-width: 1px;
+    border-radius: 50%;
+    text-align: left
+    
+}
+#package-two {
+    font-size: 115%;
+    font-family: Lato, Arial, sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    width: 310px;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 45px;
+    background-color: rgb(28, 25, 25);
+    border-width: 1px;
+    border-radius: 50%;
+    text-align: left;
+}
+#package-three {
+    font-size: 115%;
+    font-family: Lato, Arial, sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    width: 310px;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 45px;
+    background-color: rgb(244, 26, 26);
+    border-width: 1px;
+    border-radius: 50%;
+    text-align: left;
+}
+
