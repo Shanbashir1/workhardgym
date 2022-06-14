@@ -107,7 +107,7 @@ h1, h2 {
 }
 /* membership package */
 #membership {
-    height: 600px;
+    height: 300px;
     display: flex;
     margin-left: 50px;
 }
@@ -157,4 +157,26 @@ h2 {
     border-radius: 50%;
     text-align: left;
 }
+
+/* Find us address and map image */
+img {
+    height: 400px;
+    width: 90%;
+    margin-left: 75px;
+}
+#address-text {
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin-left: 75px;
+    text-decoration: underline;
+}
+span {
+    color: red;
+}
+
+
+
+
 
