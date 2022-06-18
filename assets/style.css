@@ -177,9 +177,10 @@ span {
 }
 
 /* footer & social media links */
-.footer {
-    height: 10px;
+footer {
+    height: 30px;
     display: inline;
+    width: 100%;
 }
 .footer-social {
     font-size: 50px;
@@ -212,6 +213,14 @@ span {
 #copyright {
 text-align: center;
 }
+#Gym2 {
+    height: 300px;
+    width: 90%;
+    background: url('../images/Gym2.jpg') no-repeat center center;
+    padding: 50px 30px;
+    margin-left: 30px ;   
+}
+
 
 
 
