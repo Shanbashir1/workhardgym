@@ -177,12 +177,12 @@ span {
 }
 
 /* footer & social media links */
-footer {
-    height: 50px;
+.footer {
+    height: 10px;
     display: inline;
 }
 .footer-social {
-    font-size: 300%;
+    font-size: 50px;
     text-align: center;
     padding: 5%;
     margin: 1%;
@@ -210,10 +210,8 @@ footer {
     color: black;
 }
 #copyright {
-    margin-left: 570px;
+text-align: center;
 }
-
-
 
 
 
