@@ -14,7 +14,8 @@ The Work Hard Gym is a new gym which has just launched in Watford, England. The 
 * The header logo will be text display with letter spacing of 6px and in color black
 * The header logo will be the displayed throughout every page of the website. 
 ### Front page image
-<img src="/images/gym-image.webp" style="height: 100px; width: 100px;">
+<img src="/images/gym-image.webp" style="height: 100px; width: 100px;"/>
+
 * This section introduces the user to the Work Hard Gym with an eye catching animation to grab their attention
 * The image displays some the features and equipments available to the user when joining the Work Hard Gym.
 * A further text box is inside the image alerting users of the current offers availabel to them
@@ -36,7 +37,8 @@ The Work Hard Gym is a new gym which has just launched in Watford, England. The 
 * As user login we would offer options to signup to the newsletter, induction programs and excersie schedules for different weight classes. 
 * Payonline facility were new member can payonline using online payment plans. 
  ## Color Scheme
- 
+ <span style= "color:#fff"> white </span>
+<font color="white">white </font>
  
 
  
