@@ -37,12 +37,31 @@ The Work Hard Gym is a new gym which has just launched in Watford, England. The 
 * As user login we would offer options to signup to the newsletter, induction programs and excersie schedules for different weight classes. 
 * Payonline facility were new member can payonline using online payment plans. 
  ## Color Scheme
- <span style= "color:#fff"> white </span>
-<font color="white">white </font>
- 
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) '#f03c15'
+- ![#fff](https://via.placeholder.com/15/fff/000000?text=+) '#fff'
+- ![#3a3a3a](https://via.placeholder.com/15/#3a3a3a/000000?text=+) '#3a3a3a'
+
+### Color text for the Webpage
++ #3a3a3a (black)
++ #fff 
+(White)
+
+## Font Display
+The Font that we would use for the webpage will be a combination  of the following 
++ Arial
++ Sans-Serif
++ PT Serif 
++ Logo & Heading letter-spacing will be approx 6px 
++ Navigation letter-spacing will be approx 4px
+## Wireframes 
+For my wireframes I was suggested to use **balasamiq** rather than to create a design on a notepad. 
+The initial design want through various changes before i came to a final design with the prefered color contrast. 
 
  
 
+
+
+ 
 
 
 
