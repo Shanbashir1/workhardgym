@@ -238,12 +238,17 @@ text-align: center;
 /* large media to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1000px) {
     #membership {
-        width: 50%;
+        width: 100%;
         height: 300px;
         margin-left: auto;
         float: left;
         text-align: center;
+        font-size: 60%;
+        
+        
     }
+    
+
     #menu {
         clear: left;
         float: left;
@@ -258,6 +263,7 @@ text-align: center;
     #address-text {
         padding: 0;
         text-align: left;
+        clear: both;
     }
 
    br {
