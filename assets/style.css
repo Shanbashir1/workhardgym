@@ -185,7 +185,7 @@ footer {
 .footer-social {
     font-size: 50px;
     text-align: center;
-    padding: 5%;
+    padding: 5px;
     margin: 1%;
     
 }
@@ -196,7 +196,7 @@ footer {
 
 .footer-contacts {
     text-align: center;
-    padding: 5%;
+    padding: 5px;
     margin: 1%;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -213,6 +213,9 @@ footer {
 #copyright {
 text-align: center;
 }
+
+/* Why Join us page */
+
 #Gym2 {
     height: 300px;
     width: 90%;
@@ -229,6 +232,55 @@ text-align: center;
     margin-left: 35%;
     font-weight: bold;
 }
+
+/* media queries*/
+
+/* large media to medium screen size from 1200px wide and down */
+@media screen and (max-width: 1000px) {
+    #membership {
+        width: 50%;
+        height: 300px;
+        margin-left: auto;
+        float: left;
+        text-align: center;
+    }
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    img {
+        padding: 0;
+        width: 80%;
+    }
+    #address-text {
+        padding: 0;
+        text-align: left;
+    }
+
+   br {
+    display: none;
+   }
+
+    #why {
+        text-align: center;
+    }
+
+#joining {
+    display: inline;
+    text-align: center;
+}
+#Gym2 {
+    padding: 0;
+}
+
+}
+
+    
+
+
 
 
 
