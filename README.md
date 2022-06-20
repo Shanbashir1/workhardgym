@@ -14,7 +14,7 @@ The Work Hard Gym is a new gym which has just launched in Watford, England. The 
 * The header logo will be text display with letter spacing of 6px and in color black
 * The header logo will be the displayed throughout every page of the website. 
 ### Front page image
-<img src="/images/gym-image.webp" style="height: 100px; width: 100px;"/>
+<img src="/images/gym-image.webp" style="height: 200px; width: 200px;"/>
 
 * This section introduces the user to the Work Hard Gym with an eye catching animation to grab their attention
 * The image displays some the features and equipments available to the user when joining the Work Hard Gym.
@@ -54,7 +54,7 @@ The Font that we would use for the webpage will be a combination  of the followi
 + Logo & Heading letter-spacing will be approx 6px 
 + Navigation letter-spacing will be approx 4px
 ## Wireframes 
-For my wireframes I was suggested to use **balasamiq** rather than to create a design on a notepad. 
+For my wireframes I was suggested to use **balsamiq** rather than to create a design on a notepad. 
 The initial design want through various changes before i came to a final design with the prefered color contrast. 
 
  

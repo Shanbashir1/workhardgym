@@ -109,50 +109,50 @@ h1, h2 {
 #membership {
     height: 300px;
     display: flex;
-    margin-left: 50px;
+    margin-left: 8%;
 }
 h2 {
     color: #fff;
 }
 #membership-text {
-    font-size: 115%;
+    font-size: 105%;
     font-family: Lato, Arial, sans-serif;
     color:#fff;
     text-transform: capitalize;
     width: 310px;
     height: 200px;
     padding-top: 50px;
-    padding-left: 45px;
-    background-color: red;
+    padding-left: 35px;
+    background-color: #f03c15;
     border-width: 1px;
     border-radius: 50%;
     text-align: left
     
 }
 #package-two {
-    font-size: 115%;
+    font-size: 105%;
     font-family: Lato, Arial, sans-serif;
     color: #fff;
     text-transform: capitalize;
     width: 310px;
     height: 200px;
     padding-top: 50px;
-    padding-left: 45px;
+    padding-left: 35px;
     background-color: rgb(28, 25, 25);
     border-width: 1px;
     border-radius: 50%;
     text-align: left;
 }
 #package-three {
-    font-size: 115%;
+    font-size: 105%;
     font-family: Lato, Arial, sans-serif;
     color: #fff;
     text-transform: capitalize;
     width: 310px;
     height: 200px;
     padding-top: 50px;
-    padding-left: 45px;
-    background-color: rgb(244, 26, 26);
+    padding-left: 35px;
+    background-color: #f03c15;
     border-width: 1px;
     border-radius: 50%;
     text-align: left;
@@ -235,7 +235,7 @@ text-align: center;
 
 /* media queries*/
 
-/* large media to medium screen size from 1200px wide and down */
+/* large media to medium screen size from 1000px wide and down */
 @media screen and (max-width: 1000px) {
     #membership {
         width: 100%;
@@ -266,9 +266,6 @@ text-align: center;
         clear: both;
     }
 
-   br {
-    display: none;
-   }
 
     #why {
         text-align: center;
@@ -283,7 +280,17 @@ text-align: center;
 }
 
 }
+/* Small Media screen size from 550px wide and down */
+@media screen and (max-width: 550px)  {
 
+.footer-contacts {
+    text-align: center;
+    font-size: 15px;
+}
+
+}
+
+    
     
 
 
