@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    
     <header>
         <a href="index.html">
             <h1 id="logo">Work Hard Gym</h1>
@@ -19,13 +20,13 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="Sign up now.html">Sign Up Now</a>
+                    <a href="Sign up now.html" class="active" >Sign Up Now</a>
                 </li>
                 <li>
                     <a href="why join us.html"> Why Join Us?</a>
                 </li>
                 <li>
-                    <a href="index.html" class="active"> Home</a>
+                    <a href="index.html"> Home</a>
                 </li>
 
             </ul>
@@ -36,51 +37,41 @@
 
 
     </header>
-    <section id="gym-outer">
-        <div id="gym-image"></div>
-        <div id="cover-text">
-            <h2>Exclusive Offer</h2>
-            <h3>Join Now and receive 1 month free membership Offer Valid till the end of the month</h3>
-        </div>
-
-    </section>
-    <br>
+    <section id="signup-image"><img src="images/signup.webp" alt="training"></section>
     
-    <section id="membership">
-        <br>
-        <hr>
-        <div id="membership-text">
-            <h2>Keep Strong<i class="fas fa-dumbbell"></i></h2>
-            <h3>For Regular Gym Users</h3>
-            <h4>This package suits those user who are commited to using the service on a daily basis</h4>
-            <a href="#">Sign up now</a> Use ref: DP1
-            </div>
+    <section class="form-section">
+        <form class="signup-form" method= "post" action= "#">
+            <h2 id="sign-up-h2">Ready to Sign Up - Complete the Form Below!</h2>
             
+            <label for= "fname">First Name</label>
+            <input type = "text" id = "fname" name= "first_name" required class="text-input">
+            <br>
+            
+            <label for= "lname">Last Name</label>
+            <input type = "text" id= "lname" name= "last_name" required class="text-input">
+            
+            <label for= "email">Email Address</label>
+            <input type = "email" id= "email" name= "email_address" required class="text-input">
 
-        <div id="package-two">
-            <h2>Keep Fit<i class="fas fa-running"></i></h2>
-            <h3>Regular Gym Users</h3>
-            <h4>Suited for those user who will use the gym 2-3 times per week</h4>
-            <a href="#">Sign up now</a> Use ref: KF1
-        </div>
-        <div id="package-three">
-            <h2>Have Fun<i class="fas fa-swimmer"></i></h2>
-            <h3>Occasional Gym Users</h3>
-            <h4>For those users who will pop down and have a work out or would like to use the facilities</h4>
-            <a href="#">Sign up now</a> Use ref: HF1
-        </div>
-    </section>
-
-    <section>
+            <label for= "tel">Contact Number</label>
+            <input type = "phone" id= "tel" name= "telephone_number" required class="text-input">
+            
+            <label for= "keep-strong">Keep Strong</label>
+            <input type= "radio" id= "keep-strong" name= "package_choice" value= "keep-strong" required>
+            
+            <label for= "keep-fit">Keep Fit</label>
+            <input type= "radio" id= "keep-fit" name= "package_choice" value= "keep-fit" required>
+            
+            <label for= "have-fun">Have Fun</label>
+            <input type= "radio" id= "have-fun" name= "package_choice" value= "have-fun" required>
+            
+            <input class="join-button" type="submit" value= "Register Now!">
+            
+        </form>
         
-        <div id="address-text">
-            
-            <h3>Work Hard Gym, King Street, Watford, WD18 0BW</h3>
-        </div>
-        <img src="images/map.webp" alt="Map of Watford" id="map.webp">
-
-        </div>
     </section>
+
+
     <footer>
         <hr width="100%" size="10"  color="red">
         <ul class="footer-social">
