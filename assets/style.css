@@ -276,6 +276,11 @@ text-align: center;
     padding: 0;
 }
 
+#sign-up-h2 {
+
+    font-size: 15px;
+}
+
 }
 /* Small Media screen size from 550px wide and down */
 @media screen and (max-width: 550px)  {
@@ -297,11 +302,14 @@ text-align: center;
 #sign-up-h2 {
     color: #fff;
 }
+#logo {
+    font-size: 200%;
+}
 
 
 .signup-form {
     color: #fff;
-    background-color:rgb(28, 25, 25);
+    background-color:rgba(12, 12, 12, 0.916);
     max-width: 400px;
     left: 10%;
     padding: 50px;
@@ -316,7 +324,7 @@ text-align: center;
     background: transparent;
     color:#fff;
     width: 100%;
-    height: 25px;
+    height: 30px;
     margin: 10px 0 10px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
@@ -336,14 +344,22 @@ text-align: center;
     text-align: center;
     font-size: 100%;
     background-color: #f31313;
-    color: #fff;
     display: block;
+    
     
 }
     
 .join-button:hover{
     background-color: #fff;
     color: #f31313;
+}
+#color-back {
+    background-image: url('../images/signup.webp');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+   
 }
 
 
