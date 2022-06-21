@@ -27,6 +27,7 @@ h1, h2 {
     font-weight: bold;
     margin-left: 30px;
 }
+
 /* navigation links setup */
 #menu li {
     font-size: 100%;
@@ -108,6 +109,7 @@ h1, h2 {
 /* membership package */
 #membership {
     height: 300px;
+    width: 100%;
     display: flex;
     margin-left: 8%;
 }
@@ -227,6 +229,7 @@ text-align: center;
     text-align: center;
     font-size: 40px;
     text-decoration:underline ;
+    color: #3a3a3a;
 }
 #joining {
     margin-left: 35%;
@@ -302,14 +305,11 @@ text-align: center;
 #sign-up-h2 {
     color: #fff;
 }
-#logo {
-    font-size: 200%;
-}
 
 
 .signup-form {
     color: #fff;
-    background-color:rgba(12, 12, 12, 0.916);
+    background-color:rgba(14, 13, 13, 0.847);
     max-width: 400px;
     left: 10%;
     padding: 50px;
@@ -344,8 +344,8 @@ text-align: center;
     text-align: center;
     font-size: 100%;
     background-color: #f31313;
+    color: #fff;
     display: block;
-    
     
 }
     
@@ -358,10 +358,12 @@ text-align: center;
     height: 100%;
     width: 100%;
     background-position: center;
-    background-size: cover;
    
 }
-
+hr {
+    border: 5px solid #f03c15;
+    width: 100%;
+}
 
     
 
