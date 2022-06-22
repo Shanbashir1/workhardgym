@@ -10,53 +10,52 @@ body {
 
     font-family: Lato, Arial, sans-serif;
     font-weight: 300;
-    color: black  
+    color: #3a3a3a; 
 }
-/* heading */
+/* Heading structure and creating Logo */
+
 h1, h2 {
-    font-family: PT+serif, Arial;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: black;
+    color: #3a3a3a;
 }
-#logo {
+.logo {
 
     float: left;
-    color: black;
-    font-size: 250%;
-    font-weight: bold;
-    margin-left: 30px;
+    color: #3a3a3a;
+    font-size: 200%;
+    margin: 2%;
 }
 
-/* navigation links setup */
-#menu li {
-    font-size: 100%;
-    letter-spacing: 3px;
+/* navigation links setup Menu */
+
+.menu li {
+    font-size: 80%;
+    letter-spacing: 1px;
     float: right;
     list-style: none;
-    margin-right: 20px;
+    margin: 2%;
 }
-#menu a {
+.menu a {
 
     text-decoration: none;
-    color: black;
+    color: #3a3a3a;
     font-weight: bold;
 }
-#menu, #logo {
-    line-height: 80px;
-}
-#menu a:hover {
-    border-bottom: 1px solid rgb(8, 8, 8);
+
+.menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
 }
 .active {
-    border-bottom: 1px solid rgb(8, 8, 8);
+    border-bottom: 1px solid #3a3a3a;
 }
-/* image */
+/* Front Page image */
 
-#gym-image {
-    height:700px;
+.gym1 {
+    height: 600px;
     width: 100%;
-    background: url(../images/gym-image.webp);
+    background: url('../images/gym1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,11 +64,10 @@ h1, h2 {
     animation-name: gym-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    
-
 }
-#gym-outer {
-    height: 500px;
+
+.gym-outer {
+    height: 60%;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -92,90 +90,72 @@ h1, h2 {
     font-size: 85%;
     font-family: Lato, Arial, sans-serif;
     text-transform: capitalize;
-    width: 200px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 40px;
-    background-color: rgb(139, 78, 78);
+    width: 20%;
+    height: 30%;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #f16c6b;
     border-width: 1px;
     border-radius: 50%;
-    text-align: left;
-
-    bottom: 40px;
-    right: 150px;
+    text-align: center;
+    bottom: 10%;
+    right: 7%;
     position:absolute;
 
 }
-/* membership package */
-#membership {
-    height: 300px;
+/* membership package creating cards to display deals to user*/
+.membership {
+    height: 200px;
     width: 100%;
     display: flex;
-    margin-left: 8%;
 }
 h2 {
     color: #fff;
 }
-#membership-text {
-    font-size: 95%;
-    font-family: Lato, Arial, sans-serif;
-    color:#fff;
-    text-transform: capitalize;
-    width: 310px;
-    height: 200px;
-    padding-top: 50px;
-    padding-left: 35px;
-    background-color: #f03c15;
-    border-width: 1px;
-    border-radius: 50%;
-    text-align: left
+.membership-text {
+    box-shadow: 2px 4px #3a3a3a;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f16c6b;
+    margin-left: 5%;
+    padding: 5px 10px;
+    color: #fff;
     
 }
-#package-two {
-    font-size: 105%;
-    font-family: Lato, Arial, sans-serif;
+.package-two {
+    box-shadow: 2px 4px #f03c15;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3a3a3a;
+    margin-left: 10%;
     color: #fff;
-    text-transform: capitalize;
-    width: 310px;
-    height: 200px;
-    padding-top: 50px;
-    padding-left: 35px;
-    background-color: rgb(28, 25, 25);
-    border-width: 1px;
-    border-radius: 50%;
-    text-align: left;
+    padding: 5px 10px;
 }
-#package-three {
-    font-size: 105%;
-    font-family: Lato, Arial, sans-serif;
+.package-three {
+    box-shadow: 2px 4px #3a3a3a;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f16c6b;
+    margin-left: 5%;
+    padding: 5px 10px;
     color: #fff;
-    text-transform: capitalize;
-    width: 310px;
-    height: 200px;
-    padding-top: 50px;
-    padding-left: 35px;
-    background-color: #f03c15;
-    border-width: 1px;
-    border-radius: 50%;
-    text-align: left;
 }
 
 /* Find us address and map image */
 img {
     height: 400px;
-    width: 90%;
-    margin-left: 75px;
+    width: 70%;
+    margin-left: 15%;
+    
 }
 #address-text {
 
-    color: black;
+    color: #3a3a3a;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
-    margin-left: 75px;
+    text-align: center;
     text-decoration: underline;
-}
-span {
-    color: red;
 }
 
 /* footer & social media links */
@@ -218,27 +198,27 @@ text-align: center;
 
 /* Why Join us page */
 
-#Gym2 {
+.Gym2 {
     height: 300px;
     width: 90%;
     background: url('../images/Gym2.jpg') no-repeat center center;
     padding: 50px 30px;
-    margin-left: 30px ;   
+    margin-left: 5% ;   
 }
-#why {
+.why {
     text-align: center;
-    font-size: 40px;
+    font-size: 150%;
     text-decoration:underline ;
     color: #3a3a3a;
 }
-#joining {
+.joining {
     margin-left: 35%;
     font-weight: bold;
 }
 
 /* media queries*/
 
-/* large media to medium screen size from 1000px wide and down */
+/* large media to medium screen size from 800px wide and down */
 @media screen and (max-width: 800px) {
     #membership {
         width: 90%;
@@ -290,7 +270,7 @@ text-align: center;
 
 .footer-contacts {
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
 }
 #membership {
         width: 90%;
@@ -300,8 +280,17 @@ text-align: center;
         font-size: 70%;
 }
 
+#logo {
+    font-size: 150%;
 }
-/* Sign up Now Form */
+#menu {
+    font-size: 80%;
+}
+
+
+}
+/* Sign up Now page Form */
+
 #sign-up-h2 {
     color: #fff;
 }
@@ -353,6 +342,8 @@ text-align: center;
     background-color: #fff;
     color: #f31313;
 }
+/* sign up now page background image */
+
 #color-back {
     background-image: url('../images/signup.webp');
     height: 100%;
@@ -360,6 +351,9 @@ text-align: center;
     background-position: center;
    
 }
+
+/* Border line added to webpages */
+
 hr {
     border: 5px solid #f03c15;
     width: 100%;
