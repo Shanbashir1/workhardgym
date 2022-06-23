@@ -109,6 +109,7 @@ h1, h2 {
     height: 200px;
     width: 100%;
     display: flex;
+
 }
 h2 {
     color: #fff;
@@ -118,7 +119,7 @@ h2 {
     font-size: 120%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f16c6b;
-    margin-left: 5%;
+    margin-left: 2%;
     padding: 5px 10px;
     color: #fff;
     
@@ -128,8 +129,8 @@ h2 {
     font-size: 120%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #3a3a3a;
-    margin-left: 10%;
     color: #fff;
+    margin-left: 5%;
     padding: 5px 10px;
 }
 .package-three {
@@ -198,6 +199,8 @@ text-align: center;
 
 /* Why Join us page */
 
+/* Image on Why join us page */
+
 .Gym2 {
     height: 300px;
     width: 90%;
@@ -205,90 +208,21 @@ text-align: center;
     padding: 50px 30px;
     margin-left: 5% ;   
 }
+
+/* header text */
 .why {
-    text-align: center;
+    margin-left: 42%;
     font-size: 150%;
     text-decoration:underline ;
     color: #3a3a3a;
 }
+
+/* List text */ 
 .joining {
-    margin-left: 35%;
+    margin-left: 42%;
     font-weight: bold;
 }
 
-/* media queries*/
-
-/* large media to medium screen size from 800px wide and down */
-@media screen and (max-width: 800px) {
-    #membership {
-        width: 90%;
-        height: 300px;
-        float: left;
-        text-align: center;
-        font-size: 70%;   
-    }
-    
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-    img {
-        padding: 0;
-        width: 80%;
-    }
-    #address-text {
-        padding: 0;
-        text-align: left;
-        clear: both;
-    }
-
-
-    #why {
-        text-align: center;
-    }
-
-#joining {
-    display: inline;
-    text-align: center;
-}
-#Gym2 {
-    padding: 0;
-}
-
-#sign-up-h2 {
-
-    font-size: 15px;
-}
-
-}
-/* Small Media screen size from 550px wide and down */
-@media screen and (max-width: 550px)  {
-
-.footer-contacts {
-    text-align: center;
-    font-size: 10px;
-}
-#membership {
-        width: 90%;
-        height: 300px;
-        float: left;
-        text-align: center;
-        font-size: 70%;
-}
-
-#logo {
-    font-size: 150%;
-}
-#menu {
-    font-size: 80%;
-}
-
-
-}
 /* Sign up Now page Form */
 
 #sign-up-h2 {
@@ -357,6 +291,120 @@ text-align: center;
 hr {
     border: 5px solid #f03c15;
     width: 100%;
+}
+
+/* media queries*/
+
+/* large media to medium screen size from 800px wide and down */
+@media screen and (max-width: 800px) {
+    .membership {
+        width: 90%;
+        height: 300px;
+        float: left;
+        text-align: center;
+        font-size: 70%;   
+    }
+    
+
+    .menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    img {
+        padding: 0;
+        width: 80%;
+    }
+    .address-text {
+        padding: 0;
+        text-align: left;
+        clear: both;
+    }
+
+
+.why {
+        text-align: center;
+    }
+
+.joining {
+    display: inline;
+    text-align: center;
+}
+.Gym2 {
+    padding: 0;
+}
+
+.sign-up-h2 {
+
+    font-size: 15px;
+}
+
+}
+/* Small Media screen size from 320px wide and down */
+@media screen and (max-width: 320px)  {
+
+.footer-contacts {
+    text-align: center;
+    font-size: 70%;
+    clear: both;
+}
+.membership {
+        width: 42%;
+        height: 250px;
+        float: left;
+        text-align: center;
+        font-size: 58%;
+        margin-left: 2%;
+}
+
+.membership-text {
+
+    width: 70%;
+    margin-left: 2%;
+
+}
+
+.address-text {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    height: 200px;
+    width: 90%;
+    margin-left: 6%;
+
+}
+
+.logo {
+    font-size: 140%;
+    margin-left: 5%;
+}
+.menu {
+    height: 10px;
+    width: 80%;
+    font-size: 90%;
+    text-align: left;
+    margin-left: 2%;    
+}
+
+#cover-text { 
+
+    font-size: 50%;
+    width:43%;
+    height: 30%;
+    padding-top: 10%;
+    
+}
+.gym1 {
+    height: 300px;
+    width: 100%; 
+}
+
+
 }
 
     
