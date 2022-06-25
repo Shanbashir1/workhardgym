@@ -12,14 +12,15 @@ body {
     font-weight: 300;
     color: #3a3a3a; 
 }
-/* Heading structure and creating Logo */
 
+/* Heading structure and creating Logo */
 h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #3a3a3a;
 }
+
 .logo {
 
     float: left;
@@ -37,6 +38,7 @@ h1, h2 {
     list-style: none;
     margin: 2%;
 }
+
 .menu a {
 
     text-decoration: none;
@@ -50,8 +52,8 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-/* Front Page image */
 
+/* Front Page image */
 .gym1 {
     height: 600px;
     width: 100%;
@@ -60,7 +62,7 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
 
-    /* animation for zoom image */ 
+/* animation for zoom image */ 
     animation-name: gym-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -82,10 +84,12 @@ h1, h2 {
         transform: scale(1.2);
     }
 }
+
 #cover-text, #cover-text h2{
 
     color: #fff;
 }
+
 #cover-text {
     font-size: 85%;
     font-family: Lato, Arial, sans-serif;
@@ -102,28 +106,30 @@ h1, h2 {
     bottom: 10%;
     right: 7%;
     position:absolute;
-
 }
+
 /* membership package creating cards to display deals to user*/
+
 .membership {
     height: 200px;
     width: 100%;
     display: flex;
-
 }
+
 h2 {
     color: #fff;
 }
+
 .membership-text {
     box-shadow: 2px 4px #3a3a3a;
-    font-size: 120%;
+    font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f16c6b;
     margin-left: 2%;
     padding: 5px 10px;
-    color: #fff;
-    
+    color: #fff;  
 }
+
 .package-two {
     box-shadow: 2px 4px #f03c15;
     font-size: 120%;
@@ -133,6 +139,7 @@ h2 {
     margin-left: 5%;
     padding: 5px 10px;
 }
+
 .package-three {
     box-shadow: 2px 4px #3a3a3a;
     font-size: 120%;
@@ -144,14 +151,14 @@ h2 {
 }
 
 /* Find us address and map image */
+
 img {
     height: 400px;
     width: 70%;
-    margin-left: 15%;
-    
+    margin-left: 15%;  
 }
-#address-text {
 
+.address-text {
     color: #3a3a3a;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
@@ -160,21 +167,22 @@ img {
 }
 
 /* footer & social media links */
+
 footer {
     height: 30px;
     display: inline;
     width: 100%;
 }
+
 .footer-social {
     font-size: 50px;
     text-align: center;
     padding: 5px;
     margin: 1%;
-    
 }
+
 .footer-social li {
     display: inline;
-    
 }
 
 .footer-contacts {
@@ -183,16 +191,16 @@ footer {
     margin: 1%;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
-
-
 }
+
 .footer-contacts li {
     display: inline;
-
 }
+
 .footer-contacts a {
     color: black;
 }
+
 #copyright {
 text-align: center;
 }
@@ -200,7 +208,6 @@ text-align: center;
 /* Why Join us page */
 
 /* Image on Why join us page */
-
 .Gym2 {
     height: 300px;
     width: 90%;
@@ -211,7 +218,7 @@ text-align: center;
 
 /* header text */
 .why {
-    margin-left: 42%;
+    margin-left: 30%;
     font-size: 150%;
     text-decoration:underline ;
     color: #3a3a3a;
@@ -219,8 +226,9 @@ text-align: center;
 
 /* List text */ 
 .joining {
-    margin-left: 42%;
+    margin-left: 32%;
     font-weight: bold;
+    display: list-item;
 }
 
 /* Sign up Now page Form */
@@ -229,19 +237,15 @@ text-align: center;
     color: #fff;
 }
 
-
 .signup-form {
     color: #fff;
-    background-color:rgba(14, 13, 13, 0.847);
-    max-width: 400px;
+    background-color: #3a3a3a;
+    max-width: 30%;
     left: 10%;
     padding: 50px;
     margin: 50px 10% 50px 0;
     margin-left: 30%;
-    
     }
-
-    
 
 .text-input {
     background: transparent;
@@ -259,8 +263,8 @@ text-align: center;
     border-color: #f16c6b;
     
 }
-.join-button {
-    
+
+.join-button {  
     margin-top: 25px;
     border-radius: 2px;
     padding: 32px 32px;
@@ -268,22 +272,21 @@ text-align: center;
     font-size: 100%;
     background-color: #f31313;
     color: #fff;
-    display: block;
-    
+    display: block;   
 }
     
 .join-button:hover{
     background-color: #fff;
     color: #f31313;
 }
+
 /* sign up now page background image */
 
 #color-back {
     background-image: url('../images/signup.webp');
     height: 100%;
     width: 100%;
-    background-position: center;
-   
+    background-position: center;  
 }
 
 /* Border line added to webpages */
@@ -295,61 +298,116 @@ hr {
 
 /* media queries*/
 
-/* large media to medium screen size from 800px wide and down */
-@media screen and (max-width: 800px) {
-    .membership {
+/* medium media screen size from 451px to 800px wide and down */
+@media screen and (min-width: 451px) and (max-width: 800px) {
+.membership {
         width: 90%;
         height: 300px;
         float: left;
         text-align: center;
         font-size: 70%;   
     }
-    
 
-    .menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-    img {
-        padding: 0;
-        width: 80%;
-    }
-    .address-text {
-        padding: 0;
+.menu {
+        width: 50%;
+        font-size: 90%;
         text-align: left;
-        clear: both;
+        
     }
 
+.gym1 {
+        height: 300px;
+        width: 100%; 
+}
+
+#cover-text {    
+    font-size: 50%;
+    width:43%;
+    height: 30%;
+    padding-top: 10%;  
+}
+
+img {
+        height: 200px;
+        width: 90%;
+        margin-left: 6%;
+    }
+
+.address-text {
+        clear: both;
+        text-align: center;
+        padding: 10px;
+    }
+
+.gym {
+    width: 80%;
+    height: 400px;
+    margin-left: 1%;
+}
 
 .why {
-        text-align: center;
+    font-size: 80%;
+    text-align: left;
+    margin-left: 20%;
     }
 
 .joining {
-    display: inline;
-    text-align: center;
-}
-.Gym2 {
-    padding: 0;
-}
-
-.sign-up-h2 {
-
-    font-size: 15px;
+    font-size: 75%;
+    margin-left: 18%;
+    text-align: left;
+    display:list-item;
 }
 
+.signup-form {
+    color: #fff;
+    background-color:#3a3a3a;
+    max-width: 50%;
+    left: 10%;
+    padding: 10px;
+    margin: 10px 10% 30px 0;
+    margin-left: 10%;
 }
-/* Small Media screen size from 320px wide and down */
-@media screen and (max-width: 320px)  {
+
+#sign-up-h2 {
+    font-size: 100%;
+}
+
+}
+/* Small Media screen size from min-width 320px to max-width 450px wide and down */
+
+@media screen and (min-width: 320px) and (max-width:450px) {
+
+.logo {
+        font-size: 140%;
+        margin-left: 5%;
+    }
+
+.menu {
+        height: 10px;
+        width: 80%;
+        font-size: 90%;
+        text-align: left;
+        margin-left: 2%;    
+    }
+    
+#cover-text { 
+        font-size: 50%;
+        width:43%;
+        height: 30%;
+        padding-top: 10%;  
+    }
+
+.gym1 {
+        height: 300px;
+        width: 100%; 
+}
 
 .footer-contacts {
     text-align: center;
     font-size: 70%;
     clear: both;
 }
+
 .membership {
         width: 42%;
         height: 250px;
@@ -363,7 +421,6 @@ hr {
 
     width: 70%;
     margin-left: 2%;
-
 }
 
 .address-text {
@@ -376,44 +433,37 @@ img {
     height: 200px;
     width: 90%;
     margin-left: 6%;
-
 }
 
-.logo {
-    font-size: 140%;
-    margin-left: 5%;
-}
-.menu {
-    height: 10px;
+.Gym2 {
     width: 80%;
-    font-size: 90%;
+    height: 400px;
+    margin-left: 1%;
+}
+
+.why {
+    font-size: 70%;
+    margin-left: 20%;
     text-align: left;
-    margin-left: 2%;    
 }
 
-#cover-text { 
-
-    font-size: 50%;
-    width:43%;
-    height: 30%;
-    padding-top: 10%;
-    
-}
-.gym1 {
-    height: 300px;
-    width: 100%; 
+.joining {
+    font-size: 60%;
+    margin-left: 18%;
+    text-align: left;
+    display:list-item;
 }
 
-
+.signup-form {
+    color: #fff;
+    background-color:#3a3a3a;
+    max-width: 100%;
+    left: 10%;
+    padding: 10px;
+    margin: 10px 10% 30px 0;
+    margin-left: 10%;
 }
-
-    
-
-
-    
-    
-
-
-
-
-
+#sign-up-h2 {
+    font-size: 100%;
+}
+}
