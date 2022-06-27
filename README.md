@@ -56,8 +56,21 @@ The Font that we would use for the webpage will be a combination  of the followi
 ## Wireframes 
 For my wireframes I was suggested to use **balsamiq** rather than to create a design on a notepad. 
 The initial design want through various changes before i came to a final design with the prefered color contrast. 
-![image](https://balsamiq.cloud/soiylt1/pyo53s9/r2278?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D)
+<img src="https://balsamiq.cloud/soiylt1/pyo53s9/r2278?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D">
 + I understand my design will go through some changes as i go along, the design was created to give me some design feature and also a rough collection of the webpage design. 
+
+## Technology 
+For my first project **HTML & CSS** I was able to use a wide range of programes to implement my design. _A list of the technology features and programes used are listed below, with methods of use._ 
+
++ **HTML** used to create the body structure and layout of the web page. The structure were design using the coding language used for HTML. 
++ **CSS** used to create the design feature and to make the web page colourful and eye cathching for the user. The CSS was used in conjuction with the HTML structure. 
++ **GITHUB** was used to create, host and deploy the web design on to the platform. The benefit of **github** was to create repositories, branches, commits, and pull requests. Github was also a great way to share your design to mentors and other colleagues and tutors to help view your code and seek further input and support.
++ **GITPOD** Gitpod allows you to define your project's configuration in code so you can launch a prebuilt development environment with one click.(_Source Google_) Gitpod was used to code all my **HTML and CSS** coding. 
+ Some useful feature and pathways to note for Gitpod are as follows _open pre-design of webpage(browser)_ "**python3 -m http.server**".
+To save work **git add .**
+To commit **git commit -m "Added GITPOD"** and to push your work to GITHUB repositories **git push**.
+
+
 
 
  
