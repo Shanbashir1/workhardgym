@@ -1,7 +1,7 @@
 # Work Hard Gym - Project 1
 For my first project with Code Institue I have created a Website using HTML and CSS
 ## Introduction
-![Main Web Page](images/Workhardgym.webp"Webpage")
+<img src="/images/Workhardgym.webp" style=" height= 400px; width: 800px;"/>
 The Work Hard Gym is a new gym which has just launched in Watford, England. The gym caters for both male and females and targets the local and surronding community. Located in the heart of Watford, it offers a wide variety of new joining package deals. The website will try to attract online customers and get them to join the membership online. The website will then keep the data and in future mailshot it to customer using the stored data and alert them with new offers. 
 ## User Stories 
 * As a user I want to be able to see online offers
@@ -15,7 +15,7 @@ The Work Hard Gym is a new gym which has just launched in Watford, England. The 
 * The header logo will be text display with letter spacing of 6px and in color black
 * The header logo will be the displayed throughout every page of the website. 
 ### Front page image
-<img src="/images/gym1.jpg" style="height: 300px; width: 400px;"/>
+<img src="/images/gym1.jpg" style="height: 400px; width: 800px;"/>
 
 * This section introduces the user to the Work Hard Gym with an eye catching animation to grab their attention
 * The image displays some the features and equipments available to the user when joining the Work Hard Gym.
@@ -71,6 +71,7 @@ For my first project **HTML & CSS** I was able to use a wide range of programes 
 To save work **git add .**
 To commit **git commit -m "Added GITPOD"** and to push your work to GITHUB repositories **git push**.
 ## Testing 
++ Lighthouse Test 
 
 
 
