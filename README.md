@@ -1,7 +1,7 @@
 # Work Hard Gym - Project 1
+<img src=/image/am-i-responsive.png style=" height= 400px; width: 800px;"/>
 For my first project with Code Institue I have created a Website using HTML and CSS
 ## Introduction
-<img src="/images/Workhardgym.webp" style=" height= 400px; width: 800px;"/>
 The Work Hard Gym is a new gym which has just launched in Watford, England. The gym caters for both male and females and targets the local and surronding community. Located in the heart of Watford, it offers a wide variety of new joining package deals. The website will try to attract online customers and get them to join the membership online. The website will then keep the data and in future mailshot it to customer using the stored data and alert them with new offers. 
 ## User Stories 
 * As a user I want to be able to see online offers
@@ -33,6 +33,7 @@ The Work Hard Gym is a new gym which has just launched in Watford, England. The 
 * The footer will have social media links and navigate the user to the following pages, Twitter, Facebook, Instagram, Youtube. When clicked it will take the user to the relevant social media page.
 * The footer will display a email for the Work Hard Gym, the email when clicked will be directed to the gym email address.
 * The footer will dispaly a telephone for user to contact. 
+<img src="/images/Workhardgym.webp" style=" height= 400px; width: 500px;"/>
 ## Future Feature
 * A new feature we would like to add to the webpage would be a Login facility were users login
 * As user login we would offer options to signup to the newsletter, induction programs and excersie schedules for different weight classes. 
@@ -71,7 +72,9 @@ For my first project **HTML & CSS** I was able to use a wide range of programes 
 To save work **git add .**
 To commit **git commit -m "Added GITPOD"** and to push your work to GITHUB repositories **git push**.
 ## Testing 
-+ Lighthouse Test 
++ Lighthouse Test - I tested via the Google Developer Lighthouse check. Below is a screenshot of my results. 
+<img src="/images/lighthouse.png" style=" height= 400px; width: 500px;"/>
+
 
 
 
