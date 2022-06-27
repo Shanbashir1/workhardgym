@@ -1,5 +1,5 @@
 # Work Hard Gym - Project 1
-<img src=/image/am-i-responsive.png style=" height= 400px; width: 800px;"/>
+<img src=/images/am-i-responsive.png style=" height= 400px; width: 800px;"/>
 For my first project with Code Institue I have created a Website using HTML and CSS
 ## Introduction
 The Work Hard Gym is a new gym which has just launched in Watford, England. The gym caters for both male and females and targets the local and surronding community. Located in the heart of Watford, it offers a wide variety of new joining package deals. The website will try to attract online customers and get them to join the membership online. The website will then keep the data and in future mailshot it to customer using the stored data and alert them with new offers. 
@@ -72,8 +72,17 @@ For my first project **HTML & CSS** I was able to use a wide range of programes 
 To save work **git add .**
 To commit **git commit -m "Added GITPOD"** and to push your work to GITHUB repositories **git push**.
 ## Testing 
-+ Lighthouse Test - I tested via the Google Developer Lighthouse check. Below is a screenshot of my results. 
++ Lighthouse Test 
+I tested via the Google Developer Lighthouse check. Below is a screenshot of my results. 
 <img src="/images/lighthouse.png" style=" height= 400px; width: 500px;"/>
++ The W3C Markup Validation Service https://validator.w3.org
+The coding was checked via W3 validator, My check revealed I had no errors or warnings
+<img src="/images/w3-validator.png" style=" height= 400px; width: 500px;"/>
++ The W3C CSS Validation Service - Jigsaw
+The CSS code was check via The W3C CSS Validation Service - Jigsaw.  My check revealed I had no errors or warnings
+<img src="/images/w3-jigsaw.png" style=" height= 400px; width: 500px;"/>
+
+
 
 
 
