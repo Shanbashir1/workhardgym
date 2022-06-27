@@ -56,6 +56,9 @@ The Font that we would use for the webpage will be a combination  of the followi
 ## Wireframes 
 For my wireframes I was suggested to use **balsamiq** rather than to create a design on a notepad. 
 The initial design want through various changes before i came to a final design with the prefered color contrast. 
+![image](https://balsamiq.cloud/soiylt1/pyo53s9/r2278?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D)
++ I understand my design will go through some changes as i go along, the design was created to give me some design feature and also a rough collection of the webpage design. 
+
 
  
 
