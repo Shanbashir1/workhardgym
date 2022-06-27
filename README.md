@@ -1,6 +1,7 @@
 # Work Hard Gym - Project 1
 For my first project with Code Institue I have created a Website using HTML and CSS
 ## Introduction
+![Main Web Page](images/Workhardgym.webp"Webpage")
 The Work Hard Gym is a new gym which has just launched in Watford, England. The gym caters for both male and females and targets the local and surronding community. Located in the heart of Watford, it offers a wide variety of new joining package deals. The website will try to attract online customers and get them to join the membership online. The website will then keep the data and in future mailshot it to customer using the stored data and alert them with new offers. 
 ## User Stories 
 * As a user I want to be able to see online offers
@@ -14,7 +15,7 @@ The Work Hard Gym is a new gym which has just launched in Watford, England. The 
 * The header logo will be text display with letter spacing of 6px and in color black
 * The header logo will be the displayed throughout every page of the website. 
 ### Front page image
-<img src="/images/gym-image.webp" style="height: 200px; width: 200px;"/>
+<img src="/images/gym1.jpg" style="height: 300px; width: 400px;"/>
 
 * This section introduces the user to the Work Hard Gym with an eye catching animation to grab their attention
 * The image displays some the features and equipments available to the user when joining the Work Hard Gym.
@@ -56,7 +57,7 @@ The Font that we would use for the webpage will be a combination  of the followi
 ## Wireframes 
 For my wireframes I was suggested to use **balsamiq** rather than to create a design on a notepad. 
 The initial design want through various changes before i came to a final design with the prefered color contrast. 
-<img src="https://balsamiq.cloud/soiylt1/pyo53s9/r2278?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D">
+
 + I understand my design will go through some changes as i go along, the design was created to give me some design feature and also a rough collection of the webpage design. 
 
 ## Technology 
@@ -69,6 +70,8 @@ For my first project **HTML & CSS** I was able to use a wide range of programes 
  Some useful feature and pathways to note for Gitpod are as follows _open pre-design of webpage(browser)_ "**python3 -m http.server**".
 To save work **git add .**
 To commit **git commit -m "Added GITPOD"** and to push your work to GITHUB repositories **git push**.
+## Testing 
+
 
 
 
