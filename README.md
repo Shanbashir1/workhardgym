@@ -1,5 +1,6 @@
 # Work Hard Gym - Project 1
 <img src=/images/am-i-responsive.png style=" height= 400px; width: 800px;"/>
+
 For my first project with Code Institue I have created a Website using HTML and CSS
 ## Introduction
 The Work Hard Gym is a new gym which has just launched in Watford, England. The gym caters for both male and females and targets the local and surronding community. Located in the heart of Watford, it offers a wide variety of new joining package deals. The website will try to attract online customers and get them to join the membership online. The website will then keep the data and in future mailshot it to customer using the stored data and alert them with new offers. 
@@ -34,6 +35,7 @@ The Work Hard Gym is a new gym which has just launched in Watford, England. The 
 * The footer will display a email for the Work Hard Gym, the email when clicked will be directed to the gym email address.
 * The footer will dispaly a telephone for user to contact. 
 <img src="/images/Workhardgym.webp" style=" height= 400px; width: 500px;"/>
+
 ## Future Feature
 * A new feature we would like to add to the webpage would be a Login facility were users login
 * As user login we would offer options to signup to the newsletter, induction programs and excersie schedules for different weight classes. 
@@ -72,15 +74,57 @@ For my first project **HTML & CSS** I was able to use a wide range of programes 
 To save work **git add .**
 To commit **git commit -m "Added GITPOD"** and to push your work to GITHUB repositories **git push**.
 ## Testing 
-+ Lighthouse Test 
++ **Lighthouse Test** 
 I tested via the Google Developer Lighthouse check. Below is a screenshot of my results. 
 <img src="/images/lighthouse.png" style=" height= 400px; width: 500px;"/>
-+ The W3C Markup Validation Service https://validator.w3.org
+
++ **The W3C Markup Validation Service https://validator.w3.org**
 The coding was checked via W3 validator, My check revealed I had no errors or warnings
 <img src="/images/w3-validator.png" style=" height= 400px; width: 500px;"/>
-+ The W3C CSS Validation Service - Jigsaw
-The CSS code was check via The W3C CSS Validation Service - Jigsaw.  My check revealed I had no errors or warnings
+
++ **The W3C CSS Validation Service - Jigsaw**
+The CSS code was check via The W3C CSS Validation Service - Jigsaw https://jigsaw.w3.org/css-validator/.
+My check revealed I had no errors or warnings
 <img src="/images/w3-jigsaw.png" style=" height= 400px; width: 500px;"/>
+
+## Fixed Bugs
++ Spacing for HTML & CSS - after chekcing my coding for both HTML and CSS I realised I had unnecessary spacing. These were deleated and the structure made tidy for viewing. 
++ Media Screen Sizes - I realised that my media screen sizes were not displaying the correct layout for mobile devices. These were fixed and check via **Am I responsive app** and the **google developer tool**.
+
+## Unfixed Bugs
+
+ There was no unfixed bugs by the time this was written.
+
+## Programs & Applications Used
++ **Balsamiq**
+This was used to create the wireframes during the design phase of the project, initally my design was made on a notepad, until balsamiq was mentioned for use. 
+
++ **Google Fonts** - 
+This app was used to select the LATO and PT Serif fonts, however mid way into the project i decided to use Arial and Sans Serif though out the project.
++ **Font Awesome**
+Font Awesome was used to select icons to make the images relate to the headers. Font awesome added a attractive image to my page
++ **GitPod**
+GitPod was used for writing code, commiting, and then pushing to GitHub.
++ **Github**
+GitHub was used to save projects and commit changes after they had been pushed. 
+
+
++ **Am I Responsive**
+This was used in order to see responsive design throughout the process and view different responsive designs. 
+
+## Deployment
+To deploy pages to Github the following steps were taken. 
+1. Login into your GITHUB account _if you do not have one, you will need to create one_
+2. Find Repository button and open page
+3. Locate the setting button and then locate the pages button. 
+4. You will then need to click the source button, on the tab labelled "none" select "main"
+5. Once "main" has been selected the page will start to deploy, this will take a few minutes to deploy.
+6. Once the link turns green, your link will be deployed. 
+
+## Credits 
+
+
+
 
 
 
