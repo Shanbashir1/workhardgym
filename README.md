@@ -152,6 +152,15 @@ A list of my credits are below
 + Google Map
 + W3schools.com - Help with CSS coding 
 + stackoverflow.com - help with coding, by visiting past forums. 
++ https://github.com/JorgenBrattang/staying-healthy - I was shared this repository from my colleagues on slack who guided me on a similar project.
+
+## Acknowledgement
++ My mentor Rohit Sharma @rohit_mentor - Great advice and support throughout my project journey, I was guided well with plenty of advise and support. 
++ Tutor Suport - So much help from a wide diversity of tutors. They were able to support me in good time and made me realise when things became difficult. 
++ Slack - Always so much help from colleagues, the level of support is undoubtedly amazing. 
+
+.
+
 
 
 
