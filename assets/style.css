@@ -172,6 +172,7 @@ footer {
     height: 30px;
     display: inline;
     width: 100%;
+    
 }
 
 .footer-social {
@@ -198,7 +199,7 @@ footer {
 }
 
 .footer-contacts a {
-    color: black;
+    color: #3a3a3a;
 }
 
 #copyright {

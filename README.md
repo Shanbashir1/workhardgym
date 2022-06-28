@@ -58,13 +58,15 @@ The Work Hard Gym is a new gym which will be located in Watford, Hertfordshire, 
 * As a user logs in we would offer the options to signup to the newsletter, induction programs and excersie schedules for different weight classes and package class. 
 * Payonline facility were new member can payonline using online payment plans. 
  ## Color Scheme
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) '#f03c15'
-- ![#fff](https://via.placeholder.com/15/fff/000000?text=+) '#fff'
-- ![#3a3a3a](https://via.placeholder.com/15/#3a3a3a/000000?text=+) '#3a3a3a'
++ ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `#f03c15`
++ ![#fff](https://via.placeholder.com/15/fff/fff.png) `#fff`
++ ![#3a3a3a](https://via.placeholder.com/15/3a3a3a/3a3a3a.png) `#3a3a3a`
++ ![#f16c6b](https://via.placeholder.com/15/f16c6b/f16c6b.png) `#f16c6b;`
+
 
 ### Color text for the Webpage
-+ #3a3a3a (black)
-+ #fff (White)
++ ![#fff](https://via.placeholder.com/15/fff/fff.png) `#fff`
++ ![#3a3a3a](https://via.placeholder.com/15/3a3a3a/3a3a3a.png) `#3a3a3a`
 
 ## Font Display
 The Font that we would use for the design would be a combination of the following 
@@ -159,26 +161,3 @@ A list of my credits are below
 + My mentor Rohit Sharma @rohit_mentor - Great advice and support throughout my project journey, I was guided well with plenty of advise and support. 
 + Tutor Suport - So much help from a wide diversity of tutors. They were able to support me in good time and made me realise when things became difficult. 
 + Slack - Always so much help from colleagues, the level of support is undoubtedly amazing. 
-
-.
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
-
-
