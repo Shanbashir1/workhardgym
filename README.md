@@ -16,39 +16,40 @@ The Work Hard Gym is a new gym which will be located in Watford, Hertfordshire, 
 * The header logo will be displayed at the top-left of the page. 
 * The header logo will be text display with letter spacing of 6px and using hex color code #3a3a3a.
 * The header logo will be the displayed throughout every page of the website. 
-<img src="/images/header.png" alt = "Header" style="height: 200px; width: 600px;">
+<img src="/images/header.png" alt = "Header" style="height: 100px; width: 900px;">
 
 ### Front page image
 <img src="/images/gym1.jpg" alt = "Animation Gym Equipment" style="height: 400px; width: 800px;">
 
 * This section introduces the user to the Work Hard Gym with an eye catching zoom animation to grab their attention and draw the user in.
 * The image displays some the features and equipments available to the user when joining the Work Hard Gym.
-* A further text box is inside the image alerting users of the current offers availabel to them
+* A further text box is inside the image alerting users of the current offers available to them
 ### Package deal section
 * The package deal section consists of three different deals which will be updated monthly for users to sign up from. 
 * The package deal section will have three card designs color coded, Pink, Black, Pink via the Hex color scheme.
 * When clicked each package will take you to the signup now page for users to join with convenience. 
-<img src="/images/package.png" alt = "Package" style="height: 300px; width: 600px;">
+<img src="/images/package.png" alt = "Package" style="height: 300px; width: 900px;">
 
 ### Map & Contact Address
 * The map will show the location of the gym
 * The address will show users postcode and the road name, for user not familiar of the area. 
 * The Map will be below the package deal section and take 80% of the page width
 <img src="/images/map-page.png" alt = " Map" style="height: 300px; width: 300px;">
+
 ### Footer
 * The footer will be at the bottom of the web page.
 * The footer will have social media links and navigate the user to the following pages, Twitter, Facebook, Instagram, Youtube. When clicked it will take the user to the relevant social media page.
 * The footer will display a email for the Work Hard Gym, the email when clicked will be directed to the gym email address.
 * The footer will dispaly a telephone for user to contact. 
-<img src="/images/footer.png" style=" height= 200px; width: 600px;"/>
+<img src="/images/footer.png" style=" height= 200px; width: 900px;"/>
 
 ### Why Join Us Page
 + Image to show the user the training available
 + list of facilities available to the user, some of the benefits would be a sauna, steam room and swimming pool available 24 hours 7 days per week. 
 + Cancel at anytime option if your not happy. 
 ### Sign Up Now Page
-+ form for members to sign up with their details 
-+ confirmation of signing up 
++ Form for members to sign up with their details 
++ Confirmation of signing up 
 + Options to select the package of their choice. 
 <img src="/images/form.png" alt = "Sign up Form" style="height: 400px; width: 600px;">
 
