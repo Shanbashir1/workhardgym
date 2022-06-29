@@ -152,7 +152,7 @@ h2 {
 
 /* Find us address and map image */
 
-img {
+.map {
     height: 400px;
     width: 70%;
     margin-left: 15%;  
@@ -328,7 +328,7 @@ hr {
     padding-top: 10%;  
 }
 
-img {
+.map {
         height: 200px;
         width: 90%;
         margin-left: 6%;
@@ -433,7 +433,7 @@ img {
     padding: 10px;
 }
 
-img {
+.map {
     height: 200px;
     width: 90%;
     margin-left: 6%;
