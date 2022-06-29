@@ -1,5 +1,5 @@
 # Work Hard Gym - Project 1
-<img src=/images/am-i-responsive.png style=" height= 400px; width: 800px;"/>
+<img src=/readme-images/am-i-responsive.png style=" height= 400px; width: 800px;"/>
 
 #### For my first project with Code Institue I have created a Website using the HTML and CSS programs.
 
@@ -16,7 +16,7 @@ The Work Hard Gym is a new gym which will be located in Watford, Hertfordshire, 
 * The header logo will be displayed at the top-left of the page. 
 * The header logo will be text display with letter spacing of 6px and using hex color code #3a3a3a.
 * The header logo will be the displayed throughout every page of the website. 
-<img src="/images/header.png" alt = "Header" style="height: 100px; width: 900px;">
+<img src="/readme-images/header.png" alt = "Header" style="height: 100px; width: 900px;">
 
 ### Front page image
 <img src="/images/gym1.jpg" alt = "Animation Gym Equipment" style="height: 400px; width: 800px;">
@@ -28,20 +28,20 @@ The Work Hard Gym is a new gym which will be located in Watford, Hertfordshire, 
 * The package deal section consists of three different deals which will be updated monthly for users to sign up from. 
 * The package deal section will have three card designs color coded, Pink, Black, Pink via the Hex color scheme.
 * When clicked each package will take you to the signup now page for users to join with convenience. 
-<img src="/images/package.png" alt = "Package" style="height: 300px; width: 900px;">
+<img src="/readme-images/package.png" alt = "Package" style="height: 300px; width: 900px;">
 
 ### Map & Contact Address
 * The map will show the location of the gym
 * The address will show users postcode and the road name, for user not familiar of the area. 
 * The Map will be below the package deal section and take 80% of the page width
-<img src="/images/map-page.png" alt = " Map" style="height: 300px; width: 300px;">
+<img src="/readme-images/map-page.png" alt = " Map" style="height: 300px; width: 300px;">
 
 ### Footer
 * The footer will be at the bottom of the web page.
 * The footer will have social media links and navigate the user to the following pages, Twitter, Facebook, Instagram, Youtube. When clicked it will take the user to the relevant social media page.
 * The footer will display a email for the Work Hard Gym, the email when clicked will be directed to the gym email address.
 * The footer will dispaly a telephone for user to contact. 
-<img src="/images/footer.png" style=" height= 200px; width: 900px;"/>
+<img src="/readme-images/footer.png" style=" height= 200px; width: 900px;"/>
 
 ### Why Join Us Page
 + Image to show the user the training available
@@ -51,7 +51,7 @@ The Work Hard Gym is a new gym which will be located in Watford, Hertfordshire, 
 + Form for members to sign up with their details 
 + Confirmation of signing up 
 + Options to select the package of their choice. 
-<img src="/images/form.png" alt = "Sign up Form" style="height: 400px; width: 600px;">
+<img src="/readme-images/form.png" alt = "Sign up Form" style="height: 400px; width: 600px;">
 
 ## Future Feature
 * A new feature we would like to add to the webpage would be a Login facility were users can login with a password of their choice. Users could view payments and accounts direct from the sign in. 
@@ -92,16 +92,16 @@ For my first project **HTML & CSS** I was able to use a wide range of programes 
 ## Testing 
 + **Lighthouse Test** 
 I tested via the Google Developer Lighthouse check. Below is a screenshot of my results. 
-<img src="/images/lighthouse.png" style=" height= 400px; width: 500px;"/>
+<img src="/readme-images/lighthouse.png" style=" height= 400px; width: 500px;"/>
 
 + **The W3C Markup Validation Service https://validator.w3.org**
 The coding was checked via W3 validator, My check revealed I had no errors or warnings
-<img src="/images/w3-validator.png" style=" height= 400px; width: 500px;"/>
+<img src="/readme-images/w3-validator.png" style=" height= 400px; width: 500px;"/>
 
 + **The W3C CSS Validation Service - Jigsaw**
 The CSS code was check via The W3C CSS Validation Service - Jigsaw https://jigsaw.w3.org/css-validator/.
 My check revealed I had no errors or warnings
-<img src="/images/w3-jigsaw.png" style=" height= 400px; width: 500px;"/>
+<img src="/readme-images/w3-jigsaw.png" style=" height= 400px; width: 500px;"/>
 
 ## Fixed Bugs
 + Spacing for HTML & CSS - after chekcing my coding for both HTML and CSS I realised I had unnecessary spacing. These were deleated and the structure made tidy for viewing. 
