@@ -80,6 +80,7 @@ The Font that we would use for the design would be a combination of the followin
 + For my wireframes I was suggested to use **balsamiq** rather than to create a design on a paper. 
 + The initial design want through various changes before I came to a final design with the prefered color contrast. 
 + I understand my design will go through some changes as I go along, the design was created to give me some design feature and also a rough collection of the webpage design. 
+<img src="/readme-images/balsamiq.jpg" style=" height= 400px; width: 400px;"/>
 
 ## Technology 
 For my first project **HTML & CSS** I was able to use a wide range of programes to implement my design. _A list of the technology features and programes used are listed below, with methods of use._ 
@@ -88,6 +89,13 @@ For my first project **HTML & CSS** I was able to use a wide range of programes 
 + **CSS** used to create the design and style feature to make the web page colourful and eye cathching for the user. The CSS was used in conjuction with the HTML structure. 
 + **GITHUB** was used to create, host and deploy the web design on to the platform. The benefit of **github** was to create repositories, branches, commits, and pull requests. Github was also a great way to share your design to mentors and other colleagues and tutors to help view your code and seek further input and support.
 + **GITPOD** Gitpod allows you to define your project's configuration in code so you can launch a prebuilt development environment with one click.(_Source Google_) Gitpod was used to code all my **HTML and CSS** coding. 
++ **Font Awesome** Font Awesome was used to select icons to make the images relate to the headers. Font awesome added a attractive image to my page.
++ **Balsamiq**
+This was used to create the wireframes during the design phase of the project, initally my design was made on a notepad, until balsamiq was mentioned for use. 
++ **Google Fonts** - 
+This app was used to select the LATO and PT Serif fonts, however mid way into the project i decided to use Arial and Sans Serif though out the project.
++ **Am I Responsive**
+This was used in order to see responsive design throughout the process and view different responsive designs. 
 
 ## Testing 
 + **Lighthouse Test** 
@@ -103,30 +111,31 @@ The CSS code was check via The W3C CSS Validation Service - Jigsaw https://jigsa
 My check revealed I had no errors or warnings
 <img src="/readme-images/w3-jigsaw.png" style=" height= 400px; width: 500px;"/>
 
++ **Chrome Stimulator**
+The app was used to test the website on different browsers and devices. Test were operated repeatedly during all devleopment stages. 
+<img src="/readme-images/devtools.png" style=" height= 400px; width: 500px;"/> 
+
++ **Supported browsers and platforms** 
+Google Chrome (latest version) — Windows, Mac OS X, iOS, Android
+Mozilla Firefox (latest version) — Windows
+
+### Test Cases
++ **Home Page** - The main page will be the home page when clicked will navigate the user to the home page. The Home page will consists of a zoom animation image, package deals, which when clicked on will take the user onto the sign up page. The Home page will also display a map of the gym location. 
++ **Why Join us page** - This page when clicked will navigate the user to the why join us page?. This page will display a image followed by a list of why the user should join the Work Hard Gym. 
++ **Sign up Now Page** This page when clicked will navigate the user to the sign up now page. This page will have a backgrounbd image. The page main feature will be a form with required input. 
+The user will need to enter they're _First Name_, _Last Name_, if these fields are not completed then a error message will be displayed, showing the following message "!Please fill out this field".
+_The email address_ will need to have the correct input i.e aaaa@hotmail.com otherwise this will also show the following "!Please include an @ in the email address". 
+_Contact Number_ a number will need to be entered into this field as this will be a required field. If a telephone number has not been entered then the following error messsage will be displayed "!Please fill out this field"
+_Choose your package_ a package will have a radio selection, one package must be entered as this is also a required field. If a package has not been selected then the following error messsage will be displayed "!Please select one of these options"
+<img src="/readme-images/testcases.png" style=" height= 400px; width: 500px;"/>
+
+
 ## Fixed Bugs
 + Spacing for HTML & CSS - after chekcing my coding for both HTML and CSS I realised I had unnecessary spacing. These were deleated and the structure made tidy for viewing. 
-+ Media Screen Sizes - I realised that my media screen sizes were not displaying the correct layout for mobile devices. These were fixed and check via **Am I responsive app** and the **google developer tool**.
++ Media Screen Sizes - I realised that my media screen sizes were not displaying the correct layout for mobile devices. These were fixed and checked via **Am I responsive app** and the **google developer tool**.
 
 ## Unfixed Bugs
-
- There was no unfixed bugs by the time this was written.
-
-## Programs & Applications Used
-+ **Balsamiq**
-This was used to create the wireframes during the design phase of the project, initally my design was made on a notepad, until balsamiq was mentioned for use. 
-
-+ **Google Fonts** - 
-This app was used to select the LATO and PT Serif fonts, however mid way into the project i decided to use Arial and Sans Serif though out the project.
-+ **Font Awesome**
-Font Awesome was used to select icons to make the images relate to the headers. Font awesome added a attractive image to my page
-+ **GitPod**
-GitPod was used for writing code, commiting, and then pushing to GitHub.
-+ **Github**
-GitHub was used to save projects and commit changes after they had been pushed. 
-
-
-+ **Am I Responsive**
-This was used in order to see responsive design throughout the process and view different responsive designs. 
+There was no unfixed bugs by the time this was written.
 
 ## Deployment
 ### GITHUB
